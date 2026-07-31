@@ -115,9 +115,33 @@ Each numeric field has both a typed input and a slider so the user can move thro
 
 ## Run locally
 
-Open `index.html` in a browser.
+### Clone the repo
+
+```bash
+git clone git@github.com:YOUR_USERNAME/mbs-hedging-primer.git
+cd mbs-hedging-primer
+```
+
+If you prefer HTTPS, use:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/mbs-hedging-primer.git
+cd mbs-hedging-primer
+```
+
+### Open the app
+
+Open `index.html` directly in a browser.
 
 If you prefer a local server, any static file server will work.
+
+For example, with Python:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
 
 ## Files
 
