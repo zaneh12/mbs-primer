@@ -1,6 +1,6 @@
 # MBS Hedging Primer
 
-An instructional web app for agency MBS duration, swap hedging, and swaption overlays.
+An instructional web app for agency MBS duration, swap hedging, and swaption overlays. Working on a presentation for learning purposes where the JS is interactive and visibleS
 
 ## What it shows
 
@@ -24,7 +24,8 @@ The goal is to make the convexity problem visible:
 
 - `index.html` for the page structure and instructional copy
 - `styles.css` for the presentation layer
-- `app.js` for the calculation engine, live narrative, sliders, charts, and scenario table
+- `app.js` for the implementation logic and interactive behavior, including the live narrative, sliders, charts, and scenario table
+- JavaScript, HTML, and CSS only; this is not Swift
 
 This is a static front end. There is no build step or backend service.
 
